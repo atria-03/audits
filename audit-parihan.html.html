@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Atria Audit</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#fff;color:#111;font-size:15px;line-height:1.6;padding:32px 20px 60px;max-width:600px;margin:0 auto}
+.brand{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#999;margin-bottom:32px}
+.tag{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:3px 10px;border-radius:20px;margin-bottom:14px}
+h1{font-size:22px;font-weight:800;line-height:1.2;margin-bottom:10px;color:#0a0a0a}
+.sub{font-size:14px;color:#666;margin-bottom:28px;padding-bottom:28px;border-bottom:1px solid #f0ede8}
+.nums{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:28px}
+.num{background:#fafaf9;border:1px solid #ece9e4;border-radius:8px;padding:14px 16px}
+.nl{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;color:#aaa;margin-bottom:3px}
+.nv{font-size:20px;font-weight:800;color:#c0392b}
+.nn{font-size:11px;color:#ccc;margin-top:2px}
+.sh{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;color:#aaa;margin-bottom:10px}
+.items{display:flex;flex-direction:column;gap:7px;margin-bottom:28px}
+.leak{border-left:3px solid #e74c3c;padding:11px 14px;background:#fafaf9;border-radius:0 7px 7px 0}
+.fix{border-left:3px solid #27ae60;padding:11px 14px;background:#fafaf9;border-radius:0 7px 7px 0}
+.ih{font-size:13px;font-weight:700;color:#0a0a0a;margin-bottom:2px}
+.ip{font-size:12px;color:#666}
+.roi{background:#fafaf9;border:1px solid #ece9e4;border-radius:8px;padding:16px 18px;margin-bottom:28px}
+.rr{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #f0ede8;font-size:13px}
+.rr:last-child{border:none;font-weight:800;font-size:15px;padding-top:10px;margin-top:4px}
+.rr span:first-child{color:#777}
+.cta{background:#0a0a0a;border-radius:12px;padding:28px 24px;text-align:center}
+.cta h2{font-size:18px;font-weight:800;color:#fff;margin-bottom:6px}
+.cta p{font-size:12px;color:#777;margin-bottom:18px}
+.btn{display:inline-block;background:#c8ff00;color:#0a0a0a;font-weight:800;font-size:13px;padding:12px 28px;border-radius:7px;text-decoration:none}
+.foot{text-align:center;font-size:11px;color:#ccc;margin-top:20px}
+@media(max-width:420px){.nums{grid-template-columns:1fr}h1{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="brand">Atria Automations — Operational Audit</div>
+<div class="tag" style="background:#c0392b15;color:#c0392b">Smile Lab Dallas · Dental + MedSpa</div>
+<h1>Hi Parihan — 4.9 stars, D Magazine's Best Dentist. Here's what's leaking anyway.</h1>
+<p class="sub">Smile Lab is one of Dallas's most-reviewed cosmetic practices. This audit is about what slips through even at that level — specifically because you're running dental and medspa patients through the same front desk.</p>
+<div class="sh">The numbers</div>
+<div class="nums"><div class="num"><div class="nl">Inquiries missed / month</div><div class="nv">~39</div><div class="nn">28% miss rate × 140 monthly inquiries</div></div>
+<div class="num"><div class="nl">Patients who never booked</div><div class="nv">~10</div><div class="nn">At 25% inquiry-to-booking rate</div></div>
+<div class="num"><div class="nl">Monthly revenue leak</div><div class="nv">$12,000</div><div class="nn">At $1,200 avg cosmetic + implant value</div></div>
+<div class="num"><div class="nl">Annualised</div><div class="nv">$144,000</div><div class="nn">Every year the gaps stay open</div></div>
+</div>
+<div class="sh">Where revenue is leaking</div>
+<div class="items"><div class="leak"><div class="ih">Two patient types, one front desk</div><div class="ip">Cosmetic dental and medspa inquiries need completely different responses. Under pressure, the higher-ticket one gets slower attention.</div></div>
+<div class="leak"><div class="ih">After-hours cosmetic leads go cold</div><div class="ip">Dallas patients search at 9pm. Your form sits unread until morning. Competitors with instant response win those patients first.</div></div>
+<div class="leak"><div class="ih">Treatment plan follow-up is manual</div><div class="ip">Patients who accept veneers or implants but don't book yet represent your highest-value lost revenue. One missed follow-up call loses the case.</div></div>
+<div class="leak"><div class="ih">Medspa rebooking relies on memory</div><div class="ip">Botox patients need to rebook every 3–4 months. Without automated reminders, they go to whoever reaches out first.</div></div>
+</div>
+<div class="sh">What Atria closes</div>
+<div class="items"><div class="fix"><div class="ih">24/7 AI that handles both sides</div><div class="ip">Dental or medspa inquiry — qualified, routed, and booked correctly. Zero missed calls.</div></div>
+<div class="fix"><div class="ih">Instant after-hours response</div><div class="ip">Every form and message gets a reply within minutes, including evenings and weekends.</div></div>
+<div class="fix"><div class="ih">Automated treatment follow-up</div><div class="ip">3-touch sequence for every unscheduled treatment plan. Stops the moment they book.</div></div>
+<div class="fix"><div class="ih">Medspa reactivation sequences</div><div class="ip">Timed reminders sent to medspa patients at their natural rebooking window.</div></div>
+</div>
+<div class="sh">The ROI</div>
+<div class="roi"><div class="rr"><span>Revenue leaking / month</span><span>−$12,000</span></div>
+<div class="rr"><span>Atria retainer (hybrid model)</span><span>$500</span></div>
+<div class="rr"><span>Conservative net gain / month</span><span>+$11,500</span></div>
+</div>
+<div class="cta">
+<h2>Worth 15 minutes?</h2>
+<p>I'll walk through exactly how Atria works for both the dental and medspa side of Smile Lab.</p>
+<a href="https://calendly.com/atriaautomations/new-meeting" target="_blank" rel="noopener" class="btn">Book a call with Aditri →</a>
+</div>
+<p class="foot">Aditri · Founder, Atria Automations · aditri@atriaautomations.com</p>
+</body>
+</html>

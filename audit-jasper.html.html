@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Atria — 2thbar by Dr. B Audit</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,sans-serif;background:#fafaf9;color:#1a1a1a;font-size:15px;line-height:1.6}
+.wrap{max-width:660px;margin:0 auto;padding:48px 24px 80px}
+.logo{font-size:10px;font-weight:700;letter-spacing:0.18em;text-transform:uppercase;color:#bbb;margin-bottom:48px}
+.eyebrow{font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:#6c3483;margin-bottom:12px}
+h1{font-size:28px;font-weight:800;color:#0a0a0a;line-height:1.15;margin-bottom:10px}
+.intro{font-size:15px;color:#555;margin-bottom:36px;padding-bottom:36px;border-bottom:1px solid #ece9e4}
+.stat-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:36px}
+.stat{background:#fff;border:1px solid #e8e4de;border-radius:10px;padding:16px 18px}
+.stat-label{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:#aaa;margin-bottom:5px}
+.stat-val{font-size:23px;font-weight:800;line-height:1}
+.stat-val.r{color:#c0392b}.stat-val.o{color:#d35400}.stat-val.g{color:#27ae60}
+.stat-note{font-size:11px;color:#ccc;margin-top:4px}
+.block-title{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:0.14em;color:#aaa;margin-bottom:14px}
+.items{display:flex;flex-direction:column;gap:8px;margin-bottom:36px}
+.leak{background:#fff;border:1px solid #e8e4de;border-left:3px solid #c0392b;border-radius:0 8px 8px 0;padding:14px 18px}
+.fix{background:#fff;border:1px solid #e8e4de;border-left:3px solid #27ae60;border-radius:0 8px 8px 0;padding:14px 18px}
+.item-h{font-size:14px;font-weight:700;color:#0a0a0a;margin-bottom:3px}
+.item-p{font-size:13px;color:#666;line-height:1.5}
+.roi{background:#fff;border:1px solid #e8e4de;border-radius:10px;padding:20px 22px;margin-bottom:36px}
+.roi-row{display:flex;justify-content:space-between;align-items:center;padding:8px 0;border-bottom:1px solid #f5f2ee;font-size:14px}
+.roi-row:last-child{border:none;font-size:16px;font-weight:800;padding-top:14px;margin-top:6px}
+.roi-row span:first-child{color:#777}
+.cta{background:#0a0a0a;border-radius:14px;padding:32px;text-align:center;margin-bottom:24px}
+.cta h2{font-size:20px;font-weight:800;color:#fff;margin-bottom:6px}
+.cta p{font-size:13px;color:#777;margin-bottom:22px;line-height:1.5}
+.btn{display:inline-block;background:#c8ff00;color:#0a0a0a;font-weight:800;font-size:14px;padding:13px 32px;border-radius:8px;text-decoration:none}
+.quote{background:#f5f2ee;border-radius:10px;padding:16px 20px;margin-bottom:36px;font-size:13px;color:#555;font-style:italic;line-height:1.6}
+.quote span{display:block;margin-top:8px;font-style:normal;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.1em;color:#aaa}
+.footer{text-align:center;font-size:12px;color:#ccc}
+@media(max-width:480px){.stat-row{grid-template-columns:1fr}h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="logo">Atria Automations — Operational Audit</div>
+
+  <div class="eyebrow">2thbar by Dr. B · Lone Tree, Colorado</div>
+  <h1>Hi Jasper — you designed every detail of 2thbar. The one gap is before patients walk in.</h1>
+  <p class="intro">Private glass suites. Welcome beverages. Netflix. Local artwork with Rocky Mountain views. You built a concierge dental experience from the ground up — and your patients notice every detail. They write about it. But the experience you've built inside 2thbar only matters if patients actually get through the door. This audit is about the gap between inquiry and arrival.</p>
+
+  <div class="quote">
+    "I was impressed by their immediate response upon my arrival for my appointment. Every segment of the appointment was explained and positive in approach."
+    <span>— 2thbar patient review, ZocDoc</span>
+  </div>
+
+  <div class="quote">
+    "I felt like I was at a hotel or a first class lounge. Dr. Bartolome was also a very kind doctor and talked me through the entire process."
+    <span>— 2thbar patient review, ZocDoc</span>
+  </div>
+
+  <p style="font-size:13px;color:#888;margin-bottom:36px;">Your patients are describing the in-chair experience. What they're not describing is how it felt when they first tried to reach you. That's where the gap is.</p>
+
+  <div class="block-title">The numbers behind the gap</div>
+  <div class="stat-row">
+    <div class="stat">
+      <div class="stat-label">Est. monthly inquiries going unanswered</div>
+      <div class="stat-val r">~25</div>
+      <div class="stat-note">28% miss rate × ~90 monthly inquiries</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Patients who never booked from those</div>
+      <div class="stat-val o">~6</div>
+      <div class="stat-note">Conservative 25% inquiry-to-booking rate</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Monthly revenue leak</div>
+      <div class="stat-val r">$6,600</div>
+      <div class="stat-note">At $1,100 avg cosmetic case value</div>
+    </div>
+    <div class="stat">
+      <div class="stat-label">Annualised</div>
+      <div class="stat-val r">$79,200</div>
+      <div class="stat-note">Every year the gap stays open</div>
+    </div>
+  </div>
+
+  <div class="block-title">Where 2thbar is leaking — specifically</div>
+  <div class="items">
+    <div class="leak">
+      <div class="item-h">The concierge experience breaks down before patients arrive</div>
+      <div class="item-p">You've designed every moment inside 2thbar to feel premium. But when someone calls at 7pm after seeing your practice online and nobody answers — the experience is already broken before they've walked through the door. That disconnect is the gap Atria closes.</div>
+    </div>
+    <div class="leak">
+      <div class="item-h">When you're chairside, the phone is unattended</div>
+      <div class="item-p">A boutique practice with a small team means that when you and your team are focused on a patient — which is exactly when you should be — calls ring out. Lone Tree patients researching cosmetic dentistry will move on to the next result. They won't call back.</div>
+    </div>
+    <div class="leak">
+      <div class="item-h">Cosmetic consultations need follow-up most patients don't get</div>
+      <div class="item-p">Patients interested in veneers, Invisalign, or restorative work typically take 2–4 weeks to decide. If no one follows up after their initial inquiry, most of them book with a practice that did. A single automated 3-touch sequence closes this gap entirely.</div>
+    </div>
+    <div class="leak">
+      <div class="item-h">Your brand makes missed calls more expensive than average</div>
+      <div class="item-p">A patient who finds 2thbar is actively looking for a premium experience. They're a higher-intent, higher-value prospect than a patient who picks the nearest clinic. Losing them to a missed call costs more than it would at an average practice.</div>
+    </div>
+  </div>
+
+  <div class="block-title">What Atria does for 2thbar</div>
+  <div class="items">
+    <div class="fix">
+      <div class="item-h">24/7 response that matches the 2thbar experience</div>
+      <div class="item-p">Every inquiry — call, form, or message — gets an immediate, warm, personalised response. The tone matches your brand. Patients feel like they're already being treated the way your reviews describe. Before they've booked.</div>
+    </div>
+    <div class="fix">
+      <div class="item-h">Automated cosmetic consultation follow-up</div>
+      <div class="item-p">Patients who enquire about veneers, Invisalign, or full-mouth work get a 3-touch follow-up sequence. Timed, personalised, stops the moment they book. Your team doesn't have to remember to follow up — it happens automatically.</div>
+    </div>
+    <div class="fix">
+      <div class="item-h">Overflow handling while you're with patients</div>
+      <div class="item-p">When you're chairside — which is your most important job — Atria handles everything coming in. Qualification, FAQs, booking. Patients feel attended to. You stay focused on the patient in front of you.</div>
+    </div>
+    <div class="fix">
+      <div class="item-h">Recall automation that feels personal</div>
+      <div class="item-p">Hygiene recalls and treatment reminders sent with the warmth your patients expect from 2thbar — not mass broadcast templates. Personalised, timed, and effective without adding coordinator workload.</div>
+    </div>
+  </div>
+
+  <div class="block-title">The ROI for 2thbar</div>
+  <div class="roi">
+    <div class="roi-row"><span>Revenue currently leaking / month</span><span style="color:#c0392b">−$6,600</span></div>
+    <div class="roi-row"><span>Atria monthly retainer</span><span>$300</span></div>
+    <div class="roi-row"><span style="color:#0a0a0a;font-weight:800">Conservative net gain / month</span><span style="color:#27ae60">+$6,300</span></div>
+  </div>
+
+  <div class="cta">
+    <h2>Worth 15 minutes, Jasper?</h2>
+    <p>You spent years designing the 2thbar experience. Atria makes sure it starts from the very first interaction — not just once they walk in.</p>
+    <a href="https://calendly.com/atriaautomations/new-meeting" target="_blank" rel="noopener" class="btn">Book a call with Aditri →</a>
+  </div>
+
+  <p class="footer">Aditri · Founder, Atria Automations · aditri@atriaautomations.com</p>
+</div>
+</body>
+</html>
